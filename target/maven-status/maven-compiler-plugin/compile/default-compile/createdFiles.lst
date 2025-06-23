@@ -1,0 +1,6 @@
+base\BaseTest.class
+com\selenium\framework\FirstMavenScript.class
+utils\ConfigReader.class
+utils\Log.class
+com\selenium\framework\Main.class
+pages\LoginPage.class

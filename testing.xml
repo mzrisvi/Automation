@@ -1,0 +1,9 @@
+<?xml-model href="testing.dtd"?>
+<suite name="LoginSuite">
+    <Test name="LoginTest">
+        <classes>
+            <class name="test.LoginTest">
+            </class>
+        </classes>
+    </Test>
+</suite>
