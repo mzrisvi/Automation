@@ -1,2 +1,2 @@
-# Selenium
-Selenium projects
+# Automation
+Automation projects
