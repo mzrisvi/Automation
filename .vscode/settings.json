@@ -1,4 +1,7 @@
 {
   "java.format.settings.url": ".vscode/java-formatter.xml",
-  "java.debug.settings.onBuildFailureProceed": true
+  "java.debug.settings.onBuildFailureProceed": true,
+  "cSpell.words": [
+    "Xdpd"
+  ]
 }
