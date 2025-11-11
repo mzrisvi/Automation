@@ -1,7 +1,0 @@
-<!ELEMENT suite (Test)>
-<!ATTLIST suite name NMTOKEN #REQUIRED>
-<!ELEMENT Test (classes)>
-<!ATTLIST Test name NMTOKEN #REQUIRED>
-<!ELEMENT classes (class)>
-<!ELEMENT class (#PCDATA)>
-<!ATTLIST class name NMTOKEN #REQUIRED>
