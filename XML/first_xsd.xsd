@@ -10,6 +10,7 @@
                         <xs:sequence>
                             <xs:element name="name" type="xs:string" />
                             <xs:element name="age" type="xs:unsignedByte" />
+                            <xs:element name="sex" type="xs:string"/>
                             <xs:element name="city" type="xs:string" />
                         </xs:sequence>
                     </xs:complexType>
