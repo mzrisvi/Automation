@@ -1,0 +1,19 @@
+{
+  "name": "json",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Risvi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "echo \"This is Pre-Test phase\"",
+    "test": "echo \"This is Test phase",
+    "dev": "echo \"This is Development phase\"",
+    "prod": "echo \"This is Production phase\"",
+    "posttest": "echo \"This is Post-Test phase\""
+  },
+  "dependencies": {
+    "playwright": "^1.56.1"
+  }
+}
