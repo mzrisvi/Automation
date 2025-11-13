@@ -1,0 +1,17 @@
+<friendsList>
+    <friend>
+        <name>Yashna</name>
+        <age>30</age>
+        <city>New York</city>
+    </friend>
+    <friend>
+        <name>Zarrar</name>
+        <age>25</age>
+        <city>Los Angeles</city>
+    </friend>
+    <friend>
+        <name>Yalina</name>
+        <age>28</age>
+        <city>Chicago</city>
+    </friend>
+</friendsList>
