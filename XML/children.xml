@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<friendsList>
-    <friend>
+<childrenlist>
+    <child  >
         <name>Yashna</name>
         <age>30</age>
         <sex>Female</sex>
         <city>New York</city>
-    </friend>
-    <friend>
+    </child>
+    <child>
         <name>Zarrar</name>
         <age>25</age>
         <sex>Male</sex>
         <city>Los Angeles</city>
-    </friend>
-    <friend>
+    </child>
+    <child>
         <name>Yalina</name>
         <age>28</age>
         <sex>Female</sex>
         <city>Chicago</city>
-    </friend>
-</friendsList>
+    </child>
+</childrenlist>
