@@ -1,75 +1,53 @@
-# Ignore VS Code workspace settings
-.vscode/
-
-# Byte-compiled / optimized / DLL files
+# -------------------------
+# Python
+# -------------------------
 __pycache__/
 *.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
+*.pyo
+*.pyd
+*.pdb
 *.egg
-MANIFEST
-
-# PyInstaller
-*.manifest
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
 *.spec
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
-
-# VS Code Python testing
-.pytest_cache/
-
-# Environments
-.env
-.venv
-ENV/
+# Virtual Environments
 env/
 venv/
+.venv/
+ENV/
+env_playwright/
+
+# Playwright
+playwright-report/
+playwright/.cache/
+test-results/
+.report/
+
+# PyTest
+.pytest_cache/
+.cache/
+*.html
+*.xml
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# IDE / Tooling
+.idea/
+*.code-workspace
+
+# Misc
+*.retry
