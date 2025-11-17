@@ -21,3 +21,25 @@ def main(args=None):
         return
     print("The result is:", result)
 main()
+
+# This is for module testing
+print("Module testing:")
+def sum():
+    x = 5
+    y = 10
+    return x + y
+print("Sum is:", sum())
+
+def multiply(a, b):
+    return a * b
+print("Multiplication is:", multiply(3, 4))
+
+def divide(a, b):
+    if b == 0:
+        return "Error: Division by zero."
+    return a / b
+print("Division is:", divide(10, 2))
+
+def subtract(a, b):
+    return a - b
+print("Subtraction is:", subtract(10, 5))
