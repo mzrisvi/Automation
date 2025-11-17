@@ -24,4 +24,7 @@ def main():
     
     for x in "Hello":
         print(x)
+    string1 = "Mohamnmad"
+    string2 = "Risvi"
+    print('My name is : ' + string1 + " " + string2)
 main()
