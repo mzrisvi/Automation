@@ -22,24 +22,23 @@ def main(args=None):
     print("The result is:", result)
 main()
 
-# This is for module testing
-print("Module testing:")
-def sum():
-    x = 5
-    y = 10
-    return x + y
-print("Sum is:", sum())
+class Calculator:
+    def add(self, a, b):
+        return a + b
 
-def multiply(a, b):
-    return a * b
-print("Multiplication is:", multiply(3, 4))
+    def multiply(self, a, b):
+        return a * b
 
-def divide(a, b):
-    if b == 0:
-        return "Error: Division by zero."
-    return a / b
-print("Division is:", divide(10, 2))
+    def divide(self, a, b):
+        if b == 0:
+            return "Error: Division by zero."
+        return a / b
 
-def subtract(a, b):
-    return a - b
-print("Subtraction is:", subtract(10, 5))
+    def subtract(self, a, b):
+        return a - b
+    
+calc = Calculator()
+print("Addition is:", calc.add(5, 3))
+print("Multiplication is:", calc.multiply(4, 2))
+print("Division is:", calc.divide(8, 2))
+print("Subtraction is:", calc.subtract(10, 4))
