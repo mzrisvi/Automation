@@ -1,7 +1,8 @@
-import HelloPython
+import subdir.HelloPython as HelloPython
 tempvar = 10
 # Main function
 def main():
+    HelloPython.hello()
     tempvar = 20
     print("Hello from main.py!")
     name = input("Enter your name: ")
