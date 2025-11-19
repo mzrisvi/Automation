@@ -8,6 +8,11 @@ trigger:
 
 pool: AzureDevopsAgent
 
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+
 resources:
   repositories:
     - repository: githubRepo
