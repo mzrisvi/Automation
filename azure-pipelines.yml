@@ -1,0 +1,46 @@
+# Azure Devops Pipeline
+# Build a general project with Azure
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- master
+
+pool: AzureDevopsAgent
+
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+
+resources:
+  repositories:
+    - repository: githubRepo
+      type: github
+      name: mzrisvi/Automation
+      endpoint: github.com_mzrisvi
+      ref: refs/heads/master
+
+steps:
+- task: NuGetAuthenticate@1
+
+- task: NuGetCommand@2
+  inputs:
+    restoreSolution: '$(solution)'
+
+- task: VSBuild@1
+  inputs:
+      solution: '**\*.sln'
+      createLogFile: true
+
+- task: VSTest@2
+  inputs:
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
+
