@@ -11,7 +11,7 @@ resources:
     - repository: githubRepo
       type: github
       name: mzrisvi/Automation
-      endpoint: github-connection
+      endpoint: github.com_mzrisvi
       ref: refs/heads/master
 
 
