@@ -21,7 +21,6 @@ resources:
       endpoint: github.com_mzrisvi
       ref: refs/heads/master
 
-
 steps:
 - task: NuGetAuthenticate@1
 
@@ -29,10 +28,13 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
-- task: VSBuild@1   
+- task: VSBuild@1
+  inputs:
+      solution: '**\*.sln'
+      createLogFile: true
 
 - task: VSTest@2
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
-    
+
