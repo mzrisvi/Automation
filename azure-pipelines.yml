@@ -6,6 +6,8 @@
 trigger:
 - master
 
+pool: AzureDevopsAgent
+
 resources:
   repositories:
     - repository: githubRepo
