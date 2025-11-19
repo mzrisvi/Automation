@@ -11,7 +11,9 @@ resources:
     - repository: githubRepo
       type: github
       name: mzrisvi/Automation
-      ref: refs/heads/master   # VALID
+      endpoint: github-connection
+      ref: refs/heads/master
+
 
 steps:
 - script: echo "Pipeline running!"
