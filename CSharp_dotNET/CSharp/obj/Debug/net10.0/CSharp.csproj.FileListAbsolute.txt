@@ -1,0 +1,15 @@
+C:\Automation\CSharp_dotNET\CSharp\bin\Debug\net10.0\CSharp.exe
+C:\Automation\CSharp_dotNET\CSharp\bin\Debug\net10.0\CSharp.deps.json
+C:\Automation\CSharp_dotNET\CSharp\bin\Debug\net10.0\CSharp.runtimeconfig.json
+C:\Automation\CSharp_dotNET\CSharp\bin\Debug\net10.0\CSharp.dll
+C:\Automation\CSharp_dotNET\CSharp\bin\Debug\net10.0\CSharp.pdb
+C:\Automation\CSharp_dotNET\CSharp\obj\Debug\net10.0\CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Automation\CSharp_dotNET\CSharp\obj\Debug\net10.0\CSharp.AssemblyInfoInputs.cache
+C:\Automation\CSharp_dotNET\CSharp\obj\Debug\net10.0\CSharp.AssemblyInfo.cs
+C:\Automation\CSharp_dotNET\CSharp\obj\Debug\net10.0\CSharp.csproj.CoreCompileInputs.cache
+C:\Automation\CSharp_dotNET\CSharp\obj\Debug\net10.0\CSharp.sourcelink.json
+C:\Automation\CSharp_dotNET\CSharp\obj\Debug\net10.0\CSharp.dll
+C:\Automation\CSharp_dotNET\CSharp\obj\Debug\net10.0\refint\CSharp.dll
+C:\Automation\CSharp_dotNET\CSharp\obj\Debug\net10.0\CSharp.pdb
+C:\Automation\CSharp_dotNET\CSharp\obj\Debug\net10.0\CSharp.genruntimeconfig.cache
+C:\Automation\CSharp_dotNET\CSharp\obj\Debug\net10.0\ref\CSharp.dll
