@@ -10,7 +10,7 @@ driver = webdriver.Chrome()
 driver.get("https://www.google.com")
 
 # Find an element by its name attribute and perform actions
-search_box = driver.find_element(By.NAME, "q")
+search_box = driver.find_element(By.ID, "APjFqb")
 search_box.send_keys("Selenium WebDriver")
 search_box.send_keys(Keys.RETURN)
 # Wait for a few seconds to see the results
