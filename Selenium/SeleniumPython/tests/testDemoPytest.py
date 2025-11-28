@@ -12,7 +12,7 @@ def driver():
     # Close the browser after test
     driver.quit()
     
-def test_fill_form(driver):
+def test_demo_form(driver):
     # Open a webpage
     driver.get("https://trytestingthis.netlify.app/")
     
