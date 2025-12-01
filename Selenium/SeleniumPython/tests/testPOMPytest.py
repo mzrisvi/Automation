@@ -35,3 +35,8 @@ def test_POM_form(driver, username, password):
     
     # Click the Login button
     login_page.click_login()
+    
+    # Add assertions as needed
+    assert "Successful" in driver.page_source
+# End of POM with Pytest
+
