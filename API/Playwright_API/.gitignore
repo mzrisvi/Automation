@@ -1,0 +1,53 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+*.spec
+
+# Virtual Environments
+env/
+venv/
+.venv/
+ENV/
+env_playwright/
+
+# Playwright
+playwright-report/
+playwright/.cache/
+test-results/
+.report/
+
+# PyTest
+.pytest_cache/
+.cache/
+*.html
+*.xml
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# IDE / Tooling
+.idea/
+*.code-workspace
+
+# Misc
+*.retry
