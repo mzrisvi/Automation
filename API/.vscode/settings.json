@@ -32,5 +32,6 @@
         "**/.idea": true,
         "**/*.code-workspace": true,
         "**/*.retry": true
-    }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell"
 }
