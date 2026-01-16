@@ -1,3 +1,8 @@
+# Run this command to install the required packages:
+# pip install -r requirements.txt
+Babel==2.12.1
+beautifulsoup4==4.12.3
+bs4==0.0.1
 certifi==2025.10.5
 charset-normalizer==3.4.4
 colorama==0.4.6
